@@ -1,0 +1,30 @@
+/* Light theme */
+:root{
+    --background-color:white;
+    --link-color:darkred;
+    --text-color:black;
+}
+
+/* Dark theme */
+/* :root{
+    --background-color:black;
+    --text-color:white;
+    --link-color:rgb(228, 194, 92);
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a{
+    color:var(--link-color);
+    text-decoration: none;
+}
+
+a:focus, a:hover{
+    text-decoration: underline;
+}
+
+
